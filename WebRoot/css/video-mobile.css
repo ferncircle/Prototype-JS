@@ -1,0 +1,202 @@
+.aggregator-feed > ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.aggregator-feed > ul li {
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.field + .field {
+    margin-top: 1em;
+}
+
+.field--lists > ul {
+    padding: 0;
+    break-inside: avoid;
+}
+
+.field--list {
+    margin: 0;
+    padding: 0;
+}
+
+.field--list li {
+    display: block;
+    position: relative;
+    padding-left: .85em;
+    font-size: .88em;
+    line-height: 120%;
+}
+
+.field--list li + li {
+    margin-top: .5em;
+}
+
+.field--list li a {
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: .3px;
+    line-height: 115%;
+}
+
+.field--list li::before {
+    position: absolute;
+    top: .05em;
+    left: 0;
+    color: #ff0201;
+    content: '\002022';
+}
+
+.view__more-link {
+    display: block;
+    margin-top: 1em;
+    clear: both;
+    font-size: .72em;
+}
+
+
+.image figure{
+	position: relative;
+}
+
+.thumbnail-overlay {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+}
+
+.thumbnail-video-length {
+    background-color: #000;
+    border-radius: 2px;
+    bottom: 5px;
+    color: #fff;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 300;
+    opacity: .6;
+    padding: 1px 4px 0;
+    position: absolute;
+    right: 5px;
+    text-align: right;
+}
+
+.subtext {
+    color: #666;
+    font-size: 12px;
+    white-space: normal;
+}
+
+
+
+.video-js {
+    width: 100%;
+    height: 0;
+    padding-top: 66%;
+    position: relative;
+}
+
+article.video {
+	font-family: 'Roboto',sans-serif;
+}
+
+article.video .video-wrapper {
+    margin: -1.5em -10px 0;
+}
+
+article.video h1 {
+    margin: 10px 0 5px;
+    text-transform: none;
+    font-weight: 400;
+}
+
+article.video .ui-collapsible-heading-toggle.ui-btn {
+    padding: 5px 40px 5px 10px;
+}
+
+article.video .ui-video-posted {
+    font-size: 13px;
+    color: #666;
+    font-weight: 300;
+}
+
+article.video .item-label {
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+}
+
+article.video .text, article.video  p, article.video .text li, article.video  li, article.video  .text span {
+    font-family: 'Roboto',sans-serif !important;
+    font-weight: 300 !important;
+    font-size: 18px !important;
+    line-height: 1.5 !important;
+    color: #333 !important;
+}
+
+article.video .text a{
+	text-decoration: underline;	 
+}
+
+article.video .addthis_toolbox {
+	margin: 15px 0 25px;
+	width: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    -ms-justify-content: space-between;
+    justify-content: space-between;
+}
+
+/* .ico-nav-d::after { */
+/*     background: url("//images.military.com/script/mobile/shared/css/images/icon-nav-down.png") no-repeat scroll center center transparent; */
+/*         background-position-x: center; */
+/*         background-position-y: center; */
+/*         background-size: auto auto; */
+/*     background-position: center center; */
+/*     background-size: 20px 12px !important; */
+/* } */
+
+.link-ico-left{
+	padding-left: 18px;
+    display: inline-block;
+    position: relative;
+}
+
+.flag-link, .trouble-viewing-link {
+    font-size: 13px;
+}
+
+article.video .flag-link {
+    margin-right: 10px;
+}
+
+.link-ico-left:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.theme-blue.ico-flag:after {
+    background: url(//images.military.com/script/mobile/shared/css/images/icons-svg/flag-blue.svg) no-repeat scroll center center transparent;
+    width: 14px;
+    height: 15px;
+    background-size: 12px auto;
+}
+
+.theme-blue.ico-trouble-viewing:after {
+    background: url(//images.military.com/script/mobile/shared/css/images/icons-svg/touble-viewing-blue.svg) no-repeat scroll center center transparent;
+    width: 14px;
+    height: 15px;
+    background-size: 12px auto;
+}
